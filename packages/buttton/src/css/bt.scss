@@ -1,0 +1,120 @@
+$primary-bgcolor:#409eff;
+.yj-button{
+  display:inline-block;
+  white-space: nowrap;
+  line-height: 1;
+  cursor: pointer;
+  background: #fff;
+  border: 1px solid #dcdfe6;
+  text-align: center;
+  box-sizing: border-box;
+  outline: none;
+  margin: 0;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 12px 20px;
+  border-radius: 4px;
+}
+.yj-button-default {
+    color: #323233;
+    background-color: #fff;
+    border: 1px solid #ebedf0;
+    &:focus,&:hover,&:focus,&:active{
+      color: $primary-bgcolor;
+      border-color: #c6e2ff;
+      background-color: #ecf5ff;
+    }
+     &.is-plain{
+        background: #fff;
+        border-color: #409eff;
+        color: #409eff;
+      &:focus,&:hover{
+        color: #409eff;
+        background: #ecf5ff;
+        border-color: #b3d8ff;
+      }
+    }
+}
+
+.yj-button-primary {
+    color: #fff;
+    background-color: $primary-bgcolor;
+    border-color: $primary-bgcolor;
+    &:focus,&:hover,&:focus,&:active{
+      background: #66b1ff;
+      border-color: #66b1ff;
+      color: #fff;
+    }
+     &.is-plain{
+        background: #ecf5ff;
+        border-color: #409eff;
+        color: #409eff;
+      &:focus,&:hover{
+        background: #409eff;
+        border-color: #409eff;
+        color: #fff;
+      }
+    }
+}
+.yj-button-info {
+    color: #fff;
+    background-color: #909399;
+    border-color: #909399;
+    &:focus,&:hover,&:focus,&:active{
+      background: #a6a9ad;
+      border-color: #a6a9ad;
+      color: #fff;
+    }
+     &.is-plain{
+        color: #909399;
+        background: #f4f4f5;
+        border-color: #d3d4d6;
+      &:focus,&:hover{
+        background: #909399;
+        border-color: #909399;
+        color: #fff;
+      }
+    }
+}
+.yj-button-warning{
+    color: #e6a23c;
+    background: #fdf6ec;
+    border-color: #f5dab1;
+    &:focus,&:hover,&:focus,&:active{
+      background: #ebb563;
+      border-color: #ebb563;
+      color: #fff;
+    }
+     &.is-plain{
+        color: #e6a23c;
+        background: #fdf6ec;
+        border-color: #f5dab1;
+      &:focus,&:hover{
+        background: #cf9236;
+        border-color: #cf9236;
+        color: #fff;
+        outline: none;
+      }
+    }
+}
+
+.yj-button-danger {
+      background: #f78989;
+      border-color: #f78989;
+      color: #fff;
+    &:focus,&:hover,&:focus,&:active{
+      background: #dd6161;
+      border-color: #dd6161;
+      color: #fff;
+    }
+     &.is-plain{
+        color: #f78989;
+        background: #f4f4f5;
+        border-color: #f78989;
+      &:focus,&:hover{
+        background: #f78989;
+        border-color: #f78989;
+        color: #fff;
+      }
+    }
+}
