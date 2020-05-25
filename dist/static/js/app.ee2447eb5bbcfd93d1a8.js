@@ -1,6 +1,6 @@
-webpackJsonp([7],{
+webpackJsonp([6],{
 
-/***/ "1Gc6":
+/***/ "5r7H":
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
@@ -14,15 +14,189 @@ module.exports = __webpack_require__("UNJo");
 
 /***/ }),
 
+/***/ "BrVr":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+
+// CONCATENATED MODULE: ./node_modules/babel-loader/lib!./node_modules/vue-loader/lib/selector.js?type=script&index=0!./node_modules/vue-markdown-loader/lib/markdown-compiler.js?raw!./examples/docs/sideBar.md
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ var sideBar = ({
+  data: function data() {
+    return {
+      sideBar: this.$sideBar({})
+    };
+  },
+  methods: {
+    init: function init() {
+      this.sideBar.init(function (res) {
+        setTimeout(function () {
+          res.hidden();
+        }, 3000);
+      });
+    },
+    hidden: function hidden() {
+      this.sideBar.hidden();
+    },
+    show: function show() {
+      this.sideBar.show(function (res) {
+        setTimeout(function () {
+          res.hidden();
+        }, 3000);
+      });
+    }
+  }
+});
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-36ab0589","hasScoped":false,"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./node_modules/vue-markdown-loader/lib/markdown-compiler.js?raw!./examples/docs/sideBar.md
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',[_c('h3',[_vm._v("提示(alert)")]),_vm._v(" "),_c('hr'),_vm._v(" "),_c('div',{staticClass:"demon-block"},[_c('yj-button',{nativeOn:{"click":function($event){return _vm.init($event)}}},[_vm._v("init初始化")]),_vm._v(" "),_c('yj-button',{nativeOn:{"click":function($event){return _vm.hidden($event)}}},[_vm._v("hidden隐藏")]),_vm._v(" "),_c('yj-button',{nativeOn:{"click":function($event){return _vm.show($event)}}},[_vm._v("show显示")])],1),_vm._v(" "),_c('demo-block',[_c('div',{attrs:{"slot":"desc"},slot:"desc"},[_c('yj-button',{nativeOn:{"click":function($event){return _vm.init($event)}}},[_vm._v("init")]),_vm._v(" "),_c('yj-button',{nativeOn:{"click":function($event){return _vm.hidden($event)}}},[_vm._v("hidden")]),_vm._v(" "),_c('yj-button',{nativeOn:{"click":function($event){return _vm.show($event)}}},[_vm._v("show")])],1),_c('div',{attrs:{"slot":"highlight"},slot:"highlight"},[_c('pre',{pre:true},[_c('code',{pre:true,attrs:{"v-pre":"","class":"language-html"}},[_vm._v("  "),_c('span',{pre:true,attrs:{"class":"hljs-tag"}},[_vm._v("<"),_c('span',{pre:true,attrs:{"class":"hljs-name"}},[_vm._v("yj-button")]),_vm._v(" "),_c('span',{pre:true,attrs:{"class":"hljs-attr"}},[_vm._v("@click.native")]),_vm._v("="),_c('span',{pre:true,attrs:{"class":"hljs-string"}},[_vm._v("\"init\"")]),_vm._v(">")]),_vm._v("init"),_c('span',{pre:true,attrs:{"class":"hljs-tag"}},[_vm._v("</"),_c('span',{pre:true,attrs:{"class":"hljs-name"}},[_vm._v("yj-button")]),_vm._v(">")]),_vm._v("\n  "),_c('span',{pre:true,attrs:{"class":"hljs-tag"}},[_vm._v("<"),_c('span',{pre:true,attrs:{"class":"hljs-name"}},[_vm._v("yj-button")]),_vm._v(" "),_c('span',{pre:true,attrs:{"class":"hljs-attr"}},[_vm._v("@click.native")]),_vm._v("="),_c('span',{pre:true,attrs:{"class":"hljs-string"}},[_vm._v("\"hidden\"")]),_vm._v(">")]),_vm._v("hidden"),_c('span',{pre:true,attrs:{"class":"hljs-tag"}},[_vm._v("</"),_c('span',{pre:true,attrs:{"class":"hljs-name"}},[_vm._v("yj-button")]),_vm._v(">")]),_vm._v("\n  "),_c('span',{pre:true,attrs:{"class":"hljs-tag"}},[_vm._v("<"),_c('span',{pre:true,attrs:{"class":"hljs-name"}},[_vm._v("yj-button")]),_vm._v(" "),_c('span',{pre:true,attrs:{"class":"hljs-attr"}},[_vm._v("@click.native")]),_vm._v("="),_c('span',{pre:true,attrs:{"class":"hljs-string"}},[_vm._v("\"show\"")]),_vm._v(">")]),_vm._v("show"),_c('span',{pre:true,attrs:{"class":"hljs-tag"}},[_vm._v("</"),_c('span',{pre:true,attrs:{"class":"hljs-name"}},[_vm._v("yj-button")]),_vm._v(">")]),_vm._v("\n"),_c('span',{pre:true,attrs:{"class":"hljs-tag"}},[_vm._v("<"),_c('span',{pre:true,attrs:{"class":"hljs-name"}},[_vm._v("script")]),_vm._v(">")]),_c('span',{pre:true,attrs:{"class":"javascript"}},[_vm._v("\n"),_c('span',{pre:true,attrs:{"class":"hljs-keyword"}},[_vm._v("export")]),_vm._v(" "),_c('span',{pre:true,attrs:{"class":"hljs-keyword"}},[_vm._v("default")]),_vm._v(" {\n   data(){\n     "),_c('span',{pre:true,attrs:{"class":"hljs-keyword"}},[_vm._v("return")]),_vm._v("{\n       "),_c('span',{pre:true,attrs:{"class":"hljs-attr"}},[_vm._v("sideBar")]),_vm._v(":"),_c('span',{pre:true,attrs:{"class":"hljs-keyword"}},[_vm._v("this")]),_vm._v(".$sideBar({})\n     }\n  },\n  "),_c('span',{pre:true,attrs:{"class":"hljs-attr"}},[_vm._v("methods")]),_vm._v(":{\n    init(){\n      "),_c('span',{pre:true,attrs:{"class":"hljs-keyword"}},[_vm._v("this")]),_vm._v(".sideBar.init("),_c('span',{pre:true,attrs:{"class":"hljs-function"}},[_vm._v("("),_c('span',{pre:true,attrs:{"class":"hljs-params"}},[_vm._v("res")]),_vm._v(") =>")]),_vm._v(" {\n        setTimeout("),_c('span',{pre:true,attrs:{"class":"hljs-function"}},[_c('span',{pre:true,attrs:{"class":"hljs-params"}},[_vm._v("()")]),_vm._v(" =>")]),_vm._v(" {\n           res.hidden()\n          }, "),_c('span',{pre:true,attrs:{"class":"hljs-number"}},[_vm._v("3000")]),_vm._v(");\n      })\n    },\n    hidden(){\n      "),_c('span',{pre:true,attrs:{"class":"hljs-keyword"}},[_vm._v("this")]),_vm._v(".sideBar.hidden()\n    },\n    show(){\n      "),_c('span',{pre:true,attrs:{"class":"hljs-keyword"}},[_vm._v("this")]),_vm._v(".sideBar.show("),_c('span',{pre:true,attrs:{"class":"hljs-function"}},[_vm._v("("),_c('span',{pre:true,attrs:{"class":"hljs-params"}},[_vm._v("res")]),_vm._v(")=>")]),_vm._v("{\n         setTimeout("),_c('span',{pre:true,attrs:{"class":"hljs-function"}},[_c('span',{pre:true,attrs:{"class":"hljs-params"}},[_vm._v("()")]),_vm._v(" =>")]),_vm._v(" {\n           res.hidden()\n          }, "),_c('span',{pre:true,attrs:{"class":"hljs-number"}},[_vm._v("3000")]),_vm._v(");\n      })\n    }\n  }\n}\n")]),_c('span',{pre:true,attrs:{"class":"hljs-tag"}},[_vm._v("</"),_c('span',{pre:true,attrs:{"class":"hljs-name"}},[_vm._v("script")]),_vm._v(">")]),_vm._v("\n\n")])])])]),_vm._v(" "),_c('h3',[_vm._v("prop")]),_vm._v(" "),_vm._m(0),_vm._v(" "),_c('h3',[_vm._v("Event")]),_vm._v(" "),_vm._m(1)],1)}
+var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('table',{staticClass:"table"},[_c('thead',[_c('tr',[_c('th',[_vm._v("参数")]),_vm._v(" "),_c('th',[_vm._v("说明")]),_vm._v(" "),_c('th',[_vm._v("类型")]),_vm._v(" "),_c('th',[_vm._v("可选值")]),_vm._v(" "),_c('th',[_vm._v("默认值")])])]),_vm._v(" "),_c('tbody',[_c('tr',[_c('td',[_vm._v("component")]),_vm._v(" "),_c('td',[_vm._v("VNode")]),_vm._v(" "),_c('td',[_vm._v("VNode")]),_vm._v(" "),_c('td',[_vm._v("—")]),_vm._v(" "),_c('td',[_vm._v("''")])]),_vm._v(" "),_c('tr',[_c('td',[_vm._v("params")]),_vm._v(" "),_c('td',[_vm._v("VNode.$propData")]),_vm._v(" "),_c('td',[_vm._v("Object")]),_vm._v(" "),_c('td',[_vm._v("—")]),_vm._v(" "),_c('td',[_vm._v("{}")])])])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('table',{staticClass:"table"},[_c('thead',[_c('tr',[_c('th',[_vm._v("事件名称")]),_vm._v(" "),_c('th',[_vm._v("说明")]),_vm._v(" "),_c('th',[_vm._v("回调参数")])])]),_vm._v(" "),_c('tbody',[_c('tr',[_c('td',[_vm._v("init")]),_vm._v(" "),_c('td',[_vm._v("初始化")]),_vm._v(" "),_c('td',[_vm._v("sideBar")])]),_vm._v(" "),_c('tr',[_c('td',[_vm._v("hidden")]),_vm._v(" "),_c('td',[_vm._v("隐藏")]),_vm._v(" "),_c('td',[_vm._v("sideBar")])]),_vm._v(" "),_c('tr',[_c('td',[_vm._v("show")]),_vm._v(" "),_c('td',[_vm._v("显示")]),_vm._v(" "),_c('td',[_vm._v("sideBar")])]),_vm._v(" "),_c('tr',[_c('td',[_vm._v("destroy")]),_vm._v(" "),_c('td',[_vm._v("销毁")]),_vm._v(" "),_c('td',[_vm._v("—")])])])])}]
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+/* harmony default export */ var docs_sideBar = (esExports);
+// CONCATENATED MODULE: ./node_modules/vue-loader!./node_modules/vue-markdown-loader/lib/markdown-compiler.js?raw!./examples/docs/sideBar.md
+var normalizeComponent = __webpack_require__("VU/8")
+/* script */
+
+
+/* template */
+
+/* template functional */
+var __vue_template_functional__ = false
+/* styles */
+var __vue_styles__ = null
+/* scopeId */
+var __vue_scopeId__ = null
+/* moduleIdentifier (server only) */
+var __vue_module_identifier__ = null
+var Component = normalizeComponent(
+  sideBar,
+  docs_sideBar,
+  __vue_template_functional__,
+  __vue_styles__,
+  __vue_scopeId__,
+  __vue_module_identifier__
+)
+
+/* harmony default export */ var markdown_compilerraw_examples_docs_sideBar = __webpack_exports__["default"] = (Component.exports);
+
+
+/***/ }),
+
 /***/ "DIWZ":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-2e2a6a19","hasScoped":false,"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./node_modules/vue-markdown-loader/lib/markdown-compiler.js?raw!./examples/docs/button.md
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',[_c('h3',[_vm._v("基本用法")]),_vm._v(" "),_c('p',[_c('yj-button',[_vm._v("默认按钮")]),_vm._v(" "),_c('yj-button',{attrs:{"type":"primary"}},[_vm._v("主要按钮")]),_vm._v(" "),_c('yj-button',{attrs:{"type":"info"}},[_vm._v("信息按钮")]),_vm._v(" "),_c('yj-button',{attrs:{"type":"danger"}},[_vm._v("危险按钮")]),_vm._v(" "),_c('yj-button',{attrs:{"type":"warning"}},[_vm._v("警告按钮")])],1),_vm._v(" "),_c('demo-block',[_c('div',{attrs:{"slot":"desc"},slot:"desc"},[_vm._v("按钮类型\n支持default、primary、info、warning、danger五种类型，默认为default~\n"),_c('yj-button',[_vm._v("默认按钮")]),_vm._v(" "),_c('yj-button',{attrs:{"type":"primary"}},[_vm._v("主要按钮")]),_vm._v(" "),_c('yj-button',{attrs:{"type":"info"}},[_vm._v("信息按钮")]),_vm._v(" "),_c('yj-button',{attrs:{"type":"danger"}},[_vm._v("危险按钮")]),_vm._v(" "),_c('yj-button',{attrs:{"type":"danger"}},[_vm._v("警告按钮")])],1),_c('div',{attrs:{"slot":"highlight"},slot:"highlight"},[_c('pre',{pre:true},[_c('code',{pre:true,attrs:{"v-pre":"","class":"language-html"}},[_vm._v("按钮类型\n支持default、primary、info、warning、danger五种类型，默认为default~\n"),_c('span',{pre:true,attrs:{"class":"hljs-tag"}},[_vm._v("<"),_c('span',{pre:true,attrs:{"class":"hljs-name"}},[_vm._v("yj-button")]),_vm._v(">")]),_vm._v("默认按钮"),_c('span',{pre:true,attrs:{"class":"hljs-tag"}},[_vm._v("</"),_c('span',{pre:true,attrs:{"class":"hljs-name"}},[_vm._v("yj-button")]),_vm._v(">")]),_vm._v("\n"),_c('span',{pre:true,attrs:{"class":"hljs-tag"}},[_vm._v("<"),_c('span',{pre:true,attrs:{"class":"hljs-name"}},[_vm._v("yj-button")]),_vm._v(" "),_c('span',{pre:true,attrs:{"class":"hljs-attr"}},[_vm._v("type")]),_vm._v("="),_c('span',{pre:true,attrs:{"class":"hljs-string"}},[_vm._v("\"primary\"")]),_vm._v(">")]),_vm._v("主要按钮"),_c('span',{pre:true,attrs:{"class":"hljs-tag"}},[_vm._v("</"),_c('span',{pre:true,attrs:{"class":"hljs-name"}},[_vm._v("yj-button")]),_vm._v(">")]),_vm._v("\n"),_c('span',{pre:true,attrs:{"class":"hljs-tag"}},[_vm._v("<"),_c('span',{pre:true,attrs:{"class":"hljs-name"}},[_vm._v("yj-button")]),_vm._v(" "),_c('span',{pre:true,attrs:{"class":"hljs-attr"}},[_vm._v("type")]),_vm._v("="),_c('span',{pre:true,attrs:{"class":"hljs-string"}},[_vm._v("\"info\"")]),_vm._v(">")]),_vm._v("信息按钮"),_c('span',{pre:true,attrs:{"class":"hljs-tag"}},[_vm._v("</"),_c('span',{pre:true,attrs:{"class":"hljs-name"}},[_vm._v("yj-button")]),_vm._v(">")]),_vm._v("\n"),_c('span',{pre:true,attrs:{"class":"hljs-tag"}},[_vm._v("<"),_c('span',{pre:true,attrs:{"class":"hljs-name"}},[_vm._v("yj-button")]),_vm._v(" "),_c('span',{pre:true,attrs:{"class":"hljs-attr"}},[_vm._v("type")]),_vm._v("="),_c('span',{pre:true,attrs:{"class":"hljs-string"}},[_vm._v("\"danger\"")]),_vm._v(">")]),_vm._v("危险按钮"),_c('span',{pre:true,attrs:{"class":"hljs-tag"}},[_vm._v("</"),_c('span',{pre:true,attrs:{"class":"hljs-name"}},[_vm._v("yj-button")]),_vm._v(">")]),_vm._v("\n"),_c('span',{pre:true,attrs:{"class":"hljs-tag"}},[_vm._v("<"),_c('span',{pre:true,attrs:{"class":"hljs-name"}},[_vm._v("yj-button")]),_vm._v(" "),_c('span',{pre:true,attrs:{"class":"hljs-attr"}},[_vm._v("type")]),_vm._v("="),_c('span',{pre:true,attrs:{"class":"hljs-string"}},[_vm._v("\"danger\"")]),_vm._v(">")]),_vm._v("警告按钮"),_c('span',{pre:true,attrs:{"class":"hljs-tag"}},[_vm._v("</"),_c('span',{pre:true,attrs:{"class":"hljs-name"}},[_vm._v("yj-button")]),_vm._v(">")]),_vm._v("\n\n")])])])]),_vm._v(" "),_c('p',[_c('yj-button',{staticStyle:{"marginTop":"20px"},attrs:{"plain":""}},[_vm._v("默认按钮")]),_vm._v(" "),_c('yj-button',{attrs:{"type":"primary","plain":""}},[_vm._v("主要按钮")]),_vm._v(" "),_c('yj-button',{attrs:{"type":"info","plain":""}},[_vm._v("信息按钮")]),_vm._v(" "),_c('yj-button',{attrs:{"type":"danger","plain":""}},[_vm._v("危险按钮")]),_vm._v(" "),_c('yj-button',{attrs:{"plain":"","type":"warning"}},[_vm._v("警告按钮")])],1),_vm._v(" "),_c('demo-block',[_c('div',{attrs:{"slot":"desc"},slot:"desc"},[_vm._v("朴素按钮\n通过plain属性将按钮设置为朴素按钮，朴素按钮的文字为按钮颜色，背景为白色。\n"),_c('yj-button',{attrs:{"plain":""}},[_vm._v("默认按钮")]),_vm._v(" "),_c('yj-button',{attrs:{"type":"primary","plain":""}},[_vm._v("主要按钮")]),_vm._v(" "),_c('yj-button',{attrs:{"type":"info","plain":""}},[_vm._v("信息按钮")]),_vm._v(" "),_c('yj-button',{attrs:{"type":"danger","plain":""}},[_vm._v("危险按钮")]),_vm._v(" "),_c('yj-button',{attrs:{"plain":"","type":"warning"}},[_vm._v("警告按钮")])],1),_c('div',{attrs:{"slot":"highlight"},slot:"highlight"},[_c('pre',{pre:true},[_c('code',{pre:true,attrs:{"v-pre":"","class":"language-html"}},[_vm._v("朴素按钮\n通过plain属性将按钮设置为朴素按钮，朴素按钮的文字为按钮颜色，背景为白色。\n"),_c('span',{pre:true,attrs:{"class":"hljs-tag"}},[_vm._v("<"),_c('span',{pre:true,attrs:{"class":"hljs-name"}},[_vm._v("yj-button")]),_vm._v(" "),_c('span',{pre:true,attrs:{"class":"hljs-attr"}},[_vm._v("plain")]),_vm._v(">")]),_vm._v("默认按钮"),_c('span',{pre:true,attrs:{"class":"hljs-tag"}},[_vm._v("</"),_c('span',{pre:true,attrs:{"class":"hljs-name"}},[_vm._v("yj-button")]),_vm._v(">")]),_vm._v("\n"),_c('span',{pre:true,attrs:{"class":"hljs-tag"}},[_vm._v("<"),_c('span',{pre:true,attrs:{"class":"hljs-name"}},[_vm._v("yj-button")]),_vm._v(" "),_c('span',{pre:true,attrs:{"class":"hljs-attr"}},[_vm._v("type")]),_vm._v("="),_c('span',{pre:true,attrs:{"class":"hljs-string"}},[_vm._v("\"primary\"")]),_vm._v(" "),_c('span',{pre:true,attrs:{"class":"hljs-attr"}},[_vm._v("plain")]),_vm._v(">")]),_vm._v("主要按钮"),_c('span',{pre:true,attrs:{"class":"hljs-tag"}},[_vm._v("</"),_c('span',{pre:true,attrs:{"class":"hljs-name"}},[_vm._v("yj-button")]),_vm._v(">")]),_vm._v("\n"),_c('span',{pre:true,attrs:{"class":"hljs-tag"}},[_vm._v("<"),_c('span',{pre:true,attrs:{"class":"hljs-name"}},[_vm._v("yj-button")]),_vm._v(" "),_c('span',{pre:true,attrs:{"class":"hljs-attr"}},[_vm._v("type")]),_vm._v("="),_c('span',{pre:true,attrs:{"class":"hljs-string"}},[_vm._v("\"info\"")]),_vm._v(" "),_c('span',{pre:true,attrs:{"class":"hljs-attr"}},[_vm._v("plain")]),_vm._v(">")]),_vm._v("信息按钮"),_c('span',{pre:true,attrs:{"class":"hljs-tag"}},[_vm._v("</"),_c('span',{pre:true,attrs:{"class":"hljs-name"}},[_vm._v("yj-button")]),_vm._v(">")]),_vm._v("\n"),_c('span',{pre:true,attrs:{"class":"hljs-tag"}},[_vm._v("<"),_c('span',{pre:true,attrs:{"class":"hljs-name"}},[_vm._v("yj-button")]),_vm._v(" "),_c('span',{pre:true,attrs:{"class":"hljs-attr"}},[_vm._v("type")]),_vm._v("="),_c('span',{pre:true,attrs:{"class":"hljs-string"}},[_vm._v("\"danger\"")]),_vm._v(" "),_c('span',{pre:true,attrs:{"class":"hljs-attr"}},[_vm._v("plain")]),_vm._v(">")]),_vm._v("危险按钮"),_c('span',{pre:true,attrs:{"class":"hljs-tag"}},[_vm._v("</"),_c('span',{pre:true,attrs:{"class":"hljs-name"}},[_vm._v("yj-button")]),_vm._v(">")]),_vm._v("\n"),_c('span',{pre:true,attrs:{"class":"hljs-tag"}},[_vm._v("<"),_c('span',{pre:true,attrs:{"class":"hljs-name"}},[_vm._v("yj-button")]),_vm._v(" "),_c('span',{pre:true,attrs:{"class":"hljs-attr"}},[_vm._v("plain")]),_vm._v(" "),_c('span',{pre:true,attrs:{"class":"hljs-attr"}},[_vm._v("type")]),_vm._v("="),_c('span',{pre:true,attrs:{"class":"hljs-string"}},[_vm._v("\"warning\"")]),_vm._v(">")]),_vm._v("警告按钮"),_c('span',{pre:true,attrs:{"class":"hljs-tag"}},[_vm._v("</"),_c('span',{pre:true,attrs:{"class":"hljs-name"}},[_vm._v("yj-button")]),_vm._v(">")]),_vm._v("\n")])])])]),_vm._v(" "),_c('h3',[_vm._v("prop")]),_vm._v(" "),_vm._m(0),_vm._v(" "),_c('h3',[_vm._v("Event")]),_vm._v(" "),_vm._m(1)],1)}
-var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('table',{staticClass:"table"},[_c('thead',[_c('tr',[_c('th',[_vm._v("参数")]),_vm._v(" "),_c('th',[_vm._v("说明")]),_vm._v(" "),_c('th',[_vm._v("类型")]),_vm._v(" "),_c('th',[_vm._v("可选值")]),_vm._v(" "),_c('th',[_vm._v("默认值")])])]),_vm._v(" "),_c('tbody',[_c('tr',[_c('td',[_vm._v("type")]),_vm._v(" "),_c('td',[_vm._v("类型，可选值为 primary info warning danger")]),_vm._v(" "),_c('td',[_vm._v("String")]),_vm._v(" "),_c('td',[_vm._v("—")]),_vm._v(" "),_c('td',[_vm._v("default")])])])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('table',{staticClass:"table"},[_c('thead',[_c('tr',[_c('th',[_vm._v("事件名称")]),_vm._v(" "),_c('th',[_vm._v("说明")]),_vm._v(" "),_c('th',[_vm._v("回调参数")])])]),_vm._v(" "),_c('tbody',[_c('tr',[_c('td',[_vm._v("onclick")]),_vm._v(" "),_c('td',[_vm._v("点击按钮时触发")]),_vm._v(" "),_c('td',[_vm._v("—")])])])])}]
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-75ffbfd9","hasScoped":false,"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./node_modules/vue-markdown-loader/lib/markdown-compiler.js?raw!./examples/docs/button.md
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',[_c('h4',[_vm._v("基本类型type(primary,info,danger,warning)")]),_vm._v(" "),_c('p',[_c('yj-button',[_vm._v("默认按钮")]),_vm._v(" "),_c('yj-button',{attrs:{"type":"primary"}},[_vm._v("主要按钮")]),_vm._v(" "),_c('yj-button',{attrs:{"type":"info"}},[_vm._v("信息按钮")]),_vm._v(" "),_c('yj-button',{attrs:{"type":"danger"}},[_vm._v("危险按钮")]),_vm._v(" "),_c('yj-button',{attrs:{"type":"warning"}},[_vm._v("警告按钮")])],1),_vm._v(" "),_c('demo-block',[_c('div',{attrs:{"slot":"desc"},slot:"desc"},[_vm._v("按钮类型\n支持default、primary、info、warning、danger五种类型，默认为default~\n"),_c('yj-button',[_vm._v("默认按钮")]),_vm._v(" "),_c('yj-button',{attrs:{"type":"primary"}},[_vm._v("主要按钮")]),_vm._v(" "),_c('yj-button',{attrs:{"type":"info"}},[_vm._v("信息按钮")]),_vm._v(" "),_c('yj-button',{attrs:{"type":"danger"}},[_vm._v("危险按钮")]),_vm._v(" "),_c('yj-button',{attrs:{"type":"danger"}},[_vm._v("警告按钮")])],1),_c('div',{attrs:{"slot":"highlight"},slot:"highlight"},[_c('pre',{pre:true},[_c('code',{pre:true,attrs:{"v-pre":"","class":"language-html"}},[_vm._v("按钮类型\n支持default、primary、info、warning、danger五种类型，默认为default~\n"),_c('span',{pre:true,attrs:{"class":"hljs-tag"}},[_vm._v("<"),_c('span',{pre:true,attrs:{"class":"hljs-name"}},[_vm._v("yj-button")]),_vm._v(">")]),_vm._v("默认按钮"),_c('span',{pre:true,attrs:{"class":"hljs-tag"}},[_vm._v("</"),_c('span',{pre:true,attrs:{"class":"hljs-name"}},[_vm._v("yj-button")]),_vm._v(">")]),_vm._v("\n"),_c('span',{pre:true,attrs:{"class":"hljs-tag"}},[_vm._v("<"),_c('span',{pre:true,attrs:{"class":"hljs-name"}},[_vm._v("yj-button")]),_vm._v(" "),_c('span',{pre:true,attrs:{"class":"hljs-attr"}},[_vm._v("type")]),_vm._v("="),_c('span',{pre:true,attrs:{"class":"hljs-string"}},[_vm._v("\"primary\"")]),_vm._v(">")]),_vm._v("主要按钮"),_c('span',{pre:true,attrs:{"class":"hljs-tag"}},[_vm._v("</"),_c('span',{pre:true,attrs:{"class":"hljs-name"}},[_vm._v("yj-button")]),_vm._v(">")]),_vm._v("\n"),_c('span',{pre:true,attrs:{"class":"hljs-tag"}},[_vm._v("<"),_c('span',{pre:true,attrs:{"class":"hljs-name"}},[_vm._v("yj-button")]),_vm._v(" "),_c('span',{pre:true,attrs:{"class":"hljs-attr"}},[_vm._v("type")]),_vm._v("="),_c('span',{pre:true,attrs:{"class":"hljs-string"}},[_vm._v("\"info\"")]),_vm._v(">")]),_vm._v("信息按钮"),_c('span',{pre:true,attrs:{"class":"hljs-tag"}},[_vm._v("</"),_c('span',{pre:true,attrs:{"class":"hljs-name"}},[_vm._v("yj-button")]),_vm._v(">")]),_vm._v("\n"),_c('span',{pre:true,attrs:{"class":"hljs-tag"}},[_vm._v("<"),_c('span',{pre:true,attrs:{"class":"hljs-name"}},[_vm._v("yj-button")]),_vm._v(" "),_c('span',{pre:true,attrs:{"class":"hljs-attr"}},[_vm._v("type")]),_vm._v("="),_c('span',{pre:true,attrs:{"class":"hljs-string"}},[_vm._v("\"danger\"")]),_vm._v(">")]),_vm._v("危险按钮"),_c('span',{pre:true,attrs:{"class":"hljs-tag"}},[_vm._v("</"),_c('span',{pre:true,attrs:{"class":"hljs-name"}},[_vm._v("yj-button")]),_vm._v(">")]),_vm._v("\n"),_c('span',{pre:true,attrs:{"class":"hljs-tag"}},[_vm._v("<"),_c('span',{pre:true,attrs:{"class":"hljs-name"}},[_vm._v("yj-button")]),_vm._v(" "),_c('span',{pre:true,attrs:{"class":"hljs-attr"}},[_vm._v("type")]),_vm._v("="),_c('span',{pre:true,attrs:{"class":"hljs-string"}},[_vm._v("\"danger\"")]),_vm._v(">")]),_vm._v("警告按钮"),_c('span',{pre:true,attrs:{"class":"hljs-tag"}},[_vm._v("</"),_c('span',{pre:true,attrs:{"class":"hljs-name"}},[_vm._v("yj-button")]),_vm._v(">")]),_vm._v("\n\n")])])])]),_vm._v(" "),_c('h4',[_vm._v("朴素按钮（plain）")]),_vm._v(" "),_c('p',[_c('yj-button',{staticStyle:{"marginTop":"20px"},attrs:{"plain":""}},[_vm._v("默认按钮")]),_vm._v(" "),_c('yj-button',{attrs:{"type":"primary","plain":""}},[_vm._v("主要按钮")]),_vm._v(" "),_c('yj-button',{attrs:{"type":"info","plain":""}},[_vm._v("信息按钮")]),_vm._v(" "),_c('yj-button',{attrs:{"type":"danger","plain":""}},[_vm._v("危险按钮")]),_vm._v(" "),_c('yj-button',{attrs:{"plain":"","type":"warning"}},[_vm._v("警告按钮")])],1),_vm._v(" "),_c('demo-block',[_c('div',{attrs:{"slot":"desc"},slot:"desc"},[_vm._v("通过plain属性将按钮设置为朴素按钮，朴素按钮的文字为按钮颜色，背景为白色。\n"),_c('yj-button',{attrs:{"plain":""}},[_vm._v("默认按钮")]),_vm._v(" "),_c('yj-button',{attrs:{"type":"primary","plain":""}},[_vm._v("主要按钮")]),_vm._v(" "),_c('yj-button',{attrs:{"type":"info","plain":""}},[_vm._v("信息按钮")]),_vm._v(" "),_c('yj-button',{attrs:{"type":"danger","plain":""}},[_vm._v("危险按钮")]),_vm._v(" "),_c('yj-button',{attrs:{"plain":"","type":"warning"}},[_vm._v("警告按钮")])],1),_c('div',{attrs:{"slot":"highlight"},slot:"highlight"},[_c('pre',{pre:true},[_c('code',{pre:true,attrs:{"v-pre":"","class":"language-html"}},[_vm._v("通过plain属性将按钮设置为朴素按钮，朴素按钮的文字为按钮颜色，背景为白色。\n"),_c('span',{pre:true,attrs:{"class":"hljs-tag"}},[_vm._v("<"),_c('span',{pre:true,attrs:{"class":"hljs-name"}},[_vm._v("yj-button")]),_vm._v(" "),_c('span',{pre:true,attrs:{"class":"hljs-attr"}},[_vm._v("plain")]),_vm._v(">")]),_vm._v("默认按钮"),_c('span',{pre:true,attrs:{"class":"hljs-tag"}},[_vm._v("</"),_c('span',{pre:true,attrs:{"class":"hljs-name"}},[_vm._v("yj-button")]),_vm._v(">")]),_vm._v("\n"),_c('span',{pre:true,attrs:{"class":"hljs-tag"}},[_vm._v("<"),_c('span',{pre:true,attrs:{"class":"hljs-name"}},[_vm._v("yj-button")]),_vm._v(" "),_c('span',{pre:true,attrs:{"class":"hljs-attr"}},[_vm._v("type")]),_vm._v("="),_c('span',{pre:true,attrs:{"class":"hljs-string"}},[_vm._v("\"primary\"")]),_vm._v(" "),_c('span',{pre:true,attrs:{"class":"hljs-attr"}},[_vm._v("plain")]),_vm._v(">")]),_vm._v("主要按钮"),_c('span',{pre:true,attrs:{"class":"hljs-tag"}},[_vm._v("</"),_c('span',{pre:true,attrs:{"class":"hljs-name"}},[_vm._v("yj-button")]),_vm._v(">")]),_vm._v("\n"),_c('span',{pre:true,attrs:{"class":"hljs-tag"}},[_vm._v("<"),_c('span',{pre:true,attrs:{"class":"hljs-name"}},[_vm._v("yj-button")]),_vm._v(" "),_c('span',{pre:true,attrs:{"class":"hljs-attr"}},[_vm._v("type")]),_vm._v("="),_c('span',{pre:true,attrs:{"class":"hljs-string"}},[_vm._v("\"info\"")]),_vm._v(" "),_c('span',{pre:true,attrs:{"class":"hljs-attr"}},[_vm._v("plain")]),_vm._v(">")]),_vm._v("信息按钮"),_c('span',{pre:true,attrs:{"class":"hljs-tag"}},[_vm._v("</"),_c('span',{pre:true,attrs:{"class":"hljs-name"}},[_vm._v("yj-button")]),_vm._v(">")]),_vm._v("\n"),_c('span',{pre:true,attrs:{"class":"hljs-tag"}},[_vm._v("<"),_c('span',{pre:true,attrs:{"class":"hljs-name"}},[_vm._v("yj-button")]),_vm._v(" "),_c('span',{pre:true,attrs:{"class":"hljs-attr"}},[_vm._v("type")]),_vm._v("="),_c('span',{pre:true,attrs:{"class":"hljs-string"}},[_vm._v("\"danger\"")]),_vm._v(" "),_c('span',{pre:true,attrs:{"class":"hljs-attr"}},[_vm._v("plain")]),_vm._v(">")]),_vm._v("危险按钮"),_c('span',{pre:true,attrs:{"class":"hljs-tag"}},[_vm._v("</"),_c('span',{pre:true,attrs:{"class":"hljs-name"}},[_vm._v("yj-button")]),_vm._v(">")]),_vm._v("\n"),_c('span',{pre:true,attrs:{"class":"hljs-tag"}},[_vm._v("<"),_c('span',{pre:true,attrs:{"class":"hljs-name"}},[_vm._v("yj-button")]),_vm._v(" "),_c('span',{pre:true,attrs:{"class":"hljs-attr"}},[_vm._v("plain")]),_vm._v(" "),_c('span',{pre:true,attrs:{"class":"hljs-attr"}},[_vm._v("type")]),_vm._v("="),_c('span',{pre:true,attrs:{"class":"hljs-string"}},[_vm._v("\"warning\"")]),_vm._v(">")]),_vm._v("警告按钮"),_c('span',{pre:true,attrs:{"class":"hljs-tag"}},[_vm._v("</"),_c('span',{pre:true,attrs:{"class":"hljs-name"}},[_vm._v("yj-button")]),_vm._v(">")]),_vm._v("\n")])])])]),_vm._v(" "),_c('h4',[_vm._v("不同尺寸size(medium,small,mini)")]),_vm._v(" "),_c('p',[_c('yj-button',{staticStyle:{"marginTop":"20px"},attrs:{"size":"normal"}},[_vm._v("默认按钮")]),_vm._v(" "),_c('yj-button',{attrs:{"type":"primary","size":"medium"}},[_vm._v("主要按钮")]),_vm._v(" "),_c('yj-button',{attrs:{"type":"info","size":"small"}},[_vm._v("信息按钮")]),_vm._v(" "),_c('yj-button',{attrs:{"type":"danger","size":"mini","plain":""}},[_vm._v("危险按钮")])],1),_vm._v(" "),_c('demo-block',[_c('div',{attrs:{"slot":"desc"},slot:"desc"},[_c('yj-button',{attrs:{"size":"normal"}},[_vm._v("默认按钮")]),_vm._v(" "),_c('yj-button',{attrs:{"type":"primary","size":"medium"}},[_vm._v("主要按钮")]),_vm._v(" "),_c('yj-button',{attrs:{"type":"info","size":"small"}},[_vm._v("信息按钮")]),_vm._v(" "),_c('yj-button',{attrs:{"type":"danger","size":"mini","plain":""}},[_vm._v("危险按钮")])],1),_c('div',{attrs:{"slot":"highlight"},slot:"highlight"},[_c('pre',{pre:true},[_c('code',{pre:true,attrs:{"v-pre":"","class":"language-html"}},[_c('span',{pre:true,attrs:{"class":"hljs-tag"}},[_vm._v("<"),_c('span',{pre:true,attrs:{"class":"hljs-name"}},[_vm._v("yj-button")]),_vm._v(" "),_c('span',{pre:true,attrs:{"class":"hljs-attr"}},[_vm._v("size")]),_vm._v("="),_c('span',{pre:true,attrs:{"class":"hljs-string"}},[_vm._v("\"normal\"")]),_vm._v(">")]),_vm._v("默认按钮"),_c('span',{pre:true,attrs:{"class":"hljs-tag"}},[_vm._v("</"),_c('span',{pre:true,attrs:{"class":"hljs-name"}},[_vm._v("yj-button")]),_vm._v(">")]),_vm._v("\n"),_c('span',{pre:true,attrs:{"class":"hljs-tag"}},[_vm._v("<"),_c('span',{pre:true,attrs:{"class":"hljs-name"}},[_vm._v("yj-button")]),_vm._v(" "),_c('span',{pre:true,attrs:{"class":"hljs-attr"}},[_vm._v("type")]),_vm._v("="),_c('span',{pre:true,attrs:{"class":"hljs-string"}},[_vm._v("\"primary\"")]),_vm._v(" "),_c('span',{pre:true,attrs:{"class":"hljs-attr"}},[_vm._v("size")]),_vm._v("="),_c('span',{pre:true,attrs:{"class":"hljs-string"}},[_vm._v("\"medium\"")]),_vm._v(">")]),_vm._v("主要按钮"),_c('span',{pre:true,attrs:{"class":"hljs-tag"}},[_vm._v("</"),_c('span',{pre:true,attrs:{"class":"hljs-name"}},[_vm._v("yj-button")]),_vm._v(">")]),_vm._v("\n"),_c('span',{pre:true,attrs:{"class":"hljs-tag"}},[_vm._v("<"),_c('span',{pre:true,attrs:{"class":"hljs-name"}},[_vm._v("yj-button")]),_vm._v(" "),_c('span',{pre:true,attrs:{"class":"hljs-attr"}},[_vm._v("type")]),_vm._v("="),_c('span',{pre:true,attrs:{"class":"hljs-string"}},[_vm._v("\"info\"")]),_vm._v(" "),_c('span',{pre:true,attrs:{"class":"hljs-attr"}},[_vm._v("size")]),_vm._v("="),_c('span',{pre:true,attrs:{"class":"hljs-string"}},[_vm._v("\"small\"")]),_vm._v(">")]),_vm._v("信息按钮"),_c('span',{pre:true,attrs:{"class":"hljs-tag"}},[_vm._v("</"),_c('span',{pre:true,attrs:{"class":"hljs-name"}},[_vm._v("yj-button")]),_vm._v(">")]),_vm._v("\n"),_c('span',{pre:true,attrs:{"class":"hljs-tag"}},[_vm._v("<"),_c('span',{pre:true,attrs:{"class":"hljs-name"}},[_vm._v("yj-button")]),_vm._v(" "),_c('span',{pre:true,attrs:{"class":"hljs-attr"}},[_vm._v("type")]),_vm._v("="),_c('span',{pre:true,attrs:{"class":"hljs-string"}},[_vm._v("\"danger\"")]),_vm._v(" "),_c('span',{pre:true,attrs:{"class":"hljs-attr"}},[_vm._v("size")]),_vm._v("="),_c('span',{pre:true,attrs:{"class":"hljs-string"}},[_vm._v("\"mini\"")]),_vm._v(" "),_c('span',{pre:true,attrs:{"class":"hljs-attr"}},[_vm._v("plain")]),_vm._v(">")]),_vm._v("危险按钮"),_c('span',{pre:true,attrs:{"class":"hljs-tag"}},[_vm._v("</"),_c('span',{pre:true,attrs:{"class":"hljs-name"}},[_vm._v("yj-button")]),_vm._v(">")]),_vm._v("\n")])])])]),_vm._v(" "),_c('h3',[_vm._v("prop")]),_vm._v(" "),_vm._m(0),_vm._v(" "),_c('h3',[_vm._v("Event")]),_vm._v(" "),_vm._m(1)],1)}
+var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('table',{staticClass:"table"},[_c('thead',[_c('tr',[_c('th',[_vm._v("参数")]),_vm._v(" "),_c('th',[_vm._v("说明")]),_vm._v(" "),_c('th',[_vm._v("类型")]),_vm._v(" "),_c('th',[_vm._v("可选值")]),_vm._v(" "),_c('th',[_vm._v("默认值")])])]),_vm._v(" "),_c('tbody',[_c('tr',[_c('td',[_vm._v("type")]),_vm._v(" "),_c('td',[_vm._v("类型")]),_vm._v(" "),_c('td',[_vm._v("String")]),_vm._v(" "),_c('td',[_vm._v("可选值为 primary info warning danger")]),_vm._v(" "),_c('td',[_vm._v("default")])]),_vm._v(" "),_c('tr',[_c('td',[_vm._v("plain")]),_vm._v(" "),_c('td',[_vm._v("是否朴素按钮")]),_vm._v(" "),_c('td',[_vm._v("Boolean")]),_vm._v(" "),_c('td',[_vm._v("true/false")]),_vm._v(" "),_c('td',[_vm._v("false")])]),_vm._v(" "),_c('tr',[_c('td',[_vm._v("size")]),_vm._v(" "),_c('td',[_vm._v("尺寸")]),_vm._v(" "),_c('td',[_vm._v("String")]),_vm._v(" "),_c('td',[_vm._v("normal/primary/small/mini")]),_vm._v(" "),_c('td',[_vm._v("normal")])])])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('table',{staticClass:"table"},[_c('thead',[_c('tr',[_c('th',[_vm._v("事件名称")]),_vm._v(" "),_c('th',[_vm._v("说明")]),_vm._v(" "),_c('th',[_vm._v("回调参数")])])]),_vm._v(" "),_c('tbody',[_c('tr',[_c('td',[_vm._v("click")]),_vm._v(" "),_c('td',[_vm._v("点击按钮时触发")]),_vm._v(" "),_c('td',[_vm._v("—")])])])])}]
 var esExports = { render: render, staticRenderFns: staticRenderFns }
 /* harmony default export */ var docs_button = (esExports);
 // CONCATENATED MODULE: ./node_modules/vue-loader!./node_modules/vue-markdown-loader/lib/markdown-compiler.js?raw!./examples/docs/button.md
@@ -82,7 +256,7 @@ exports.push([module.i, ".demo-icon .source>i{font-size:24px;color:#8492a6;margi
 
 /***/ }),
 
-/***/ "J3uo":
+/***/ "JMsH":
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
@@ -100,6 +274,13 @@ module.exports = ["icon-iconset0101","icon-iconset0102","icon-iconset0103","icon
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__("YNGB");
+
+/***/ }),
+
+/***/ "S0FE":
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__("BrVr");
 
 /***/ }),
 
@@ -231,10 +412,145 @@ var Component = normalizeComponent(
 
 /***/ }),
 
+/***/ "UeDQ":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+
+// CONCATENATED MODULE: ./node_modules/babel-loader/lib!./node_modules/vue-loader/lib/selector.js?type=script&index=0!./node_modules/vue-markdown-loader/lib/markdown-compiler.js?raw!./examples/docs/mask.md
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ var mask = ({
+  data: function data() {
+    return {};
+  },
+  methods: {
+    onMaskShow: function onMaskShow(e) {
+      this.$mask.show();
+    }
+  }
+});
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-22930ddf","hasScoped":false,"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./node_modules/vue-markdown-loader/lib/markdown-compiler.js?raw!./examples/docs/mask.md
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',[_c('h3',[_vm._v("基本用法")]),_vm._v(" "),_c('hr'),_vm._v(" "),_c('div',{staticClass:"demon-block"},[_c('yj-button',{nativeOn:{"click":function($event){return _vm.onMaskShow($event)}}},[_vm._v("弹出遮罩层")])],1),_vm._v(" "),_c('hr'),_vm._v(" "),_c('p',[_vm._v("基础用法")]),_vm._v(" "),_c('demo-block',[_c('div',{attrs:{"slot":"desc"},slot:"desc"},[_c('div',[_c('yj-button',{nativeOn:{"click":function($event){return _vm.onMaskShow($event)}}},[_vm._v("弹出遮罩层")])],1)]),_c('div',{attrs:{"slot":"highlight"},slot:"highlight"},[_c('pre',{pre:true},[_c('code',{pre:true,attrs:{"v-pre":"","class":"language-html"}},[_c('span',{pre:true,attrs:{"class":"hljs-tag"}},[_vm._v("<"),_c('span',{pre:true,attrs:{"class":"hljs-name"}},[_vm._v("div")]),_vm._v(">")]),_vm._v("\n    "),_c('span',{pre:true,attrs:{"class":"hljs-tag"}},[_vm._v("<"),_c('span',{pre:true,attrs:{"class":"hljs-name"}},[_vm._v("yj-button")]),_vm._v(" "),_c('span',{pre:true,attrs:{"class":"hljs-attr"}},[_vm._v("@click.native")]),_vm._v("="),_c('span',{pre:true,attrs:{"class":"hljs-string"}},[_vm._v("\"onMaskShow\"")]),_vm._v(">")]),_vm._v("弹出遮罩层"),_c('span',{pre:true,attrs:{"class":"hljs-tag"}},[_vm._v("</"),_c('span',{pre:true,attrs:{"class":"hljs-name"}},[_vm._v("yj-button")]),_vm._v(">")]),_vm._v("\n"),_c('span',{pre:true,attrs:{"class":"hljs-tag"}},[_vm._v("</"),_c('span',{pre:true,attrs:{"class":"hljs-name"}},[_vm._v("div")]),_vm._v(">")]),_vm._v("\n"),_c('span',{pre:true,attrs:{"class":"hljs-tag"}},[_vm._v("<"),_c('span',{pre:true,attrs:{"class":"hljs-name"}},[_vm._v("script")]),_vm._v(">")]),_c('span',{pre:true,attrs:{"class":"javascript"}},[_vm._v("\n"),_c('span',{pre:true,attrs:{"class":"hljs-keyword"}},[_vm._v("export")]),_vm._v(" "),_c('span',{pre:true,attrs:{"class":"hljs-keyword"}},[_vm._v("default")]),_vm._v(" {\n   data(){\n     "),_c('span',{pre:true,attrs:{"class":"hljs-keyword"}},[_vm._v("return")]),_vm._v("{\n     }\n  },\n  "),_c('span',{pre:true,attrs:{"class":"hljs-attr"}},[_vm._v("methods")]),_vm._v(":{\n    onMaskShow(){\n       "),_c('span',{pre:true,attrs:{"class":"hljs-keyword"}},[_vm._v("this")]),_vm._v(".$mask.show()\n    }\n  }\n}\n")]),_c('span',{pre:true,attrs:{"class":"hljs-tag"}},[_vm._v("</"),_c('span',{pre:true,attrs:{"class":"hljs-name"}},[_vm._v("script")]),_vm._v(">")]),_vm._v("\n\n")])])])]),_vm._v(" "),_c('h3',[_vm._v("prop")]),_vm._v(" "),_vm._m(0),_vm._v(" "),_c('h3',[_vm._v("Event")]),_vm._v(" "),_vm._m(1)],1)}
+var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('table',{staticClass:"table"},[_c('thead',[_c('tr',[_c('th',[_vm._v("参数")]),_vm._v(" "),_c('th',[_vm._v("说明")]),_vm._v(" "),_c('th',[_vm._v("类型")]),_vm._v(" "),_c('th',[_vm._v("可选值")]),_vm._v(" "),_c('th',[_vm._v("默认值")])])]),_vm._v(" "),_c('tbody',[_c('tr',[_c('td',[_vm._v("nothing")]),_vm._v(" "),_c('td',[_vm._v("nothing")]),_vm._v(" "),_c('td',[_vm._v("nothing")]),_vm._v(" "),_c('td',[_vm._v("— nothing")]),_vm._v(" "),_c('td',[_vm._v("nothing")])])])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('table',{staticClass:"table"},[_c('thead',[_c('tr',[_c('th',[_vm._v("事件名称")]),_vm._v(" "),_c('th',[_vm._v("说明")]),_vm._v(" "),_c('th',[_vm._v("回调参数")])])]),_vm._v(" "),_c('tbody',[_c('tr',[_c('td',[_vm._v("nothing")]),_vm._v(" "),_c('td',[_vm._v("nothing")]),_vm._v(" "),_c('td',[_vm._v("nothing")])])])])}]
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+/* harmony default export */ var docs_mask = (esExports);
+// CONCATENATED MODULE: ./node_modules/vue-loader!./node_modules/vue-markdown-loader/lib/markdown-compiler.js?raw!./examples/docs/mask.md
+var normalizeComponent = __webpack_require__("VU/8")
+/* script */
+
+
+/* template */
+
+/* template functional */
+var __vue_template_functional__ = false
+/* styles */
+var __vue_styles__ = null
+/* scopeId */
+var __vue_scopeId__ = null
+/* moduleIdentifier (server only) */
+var __vue_module_identifier__ = null
+var Component = normalizeComponent(
+  mask,
+  docs_mask,
+  __vue_template_functional__,
+  __vue_styles__,
+  __vue_scopeId__,
+  __vue_module_identifier__
+)
+
+/* harmony default export */ var markdown_compilerraw_examples_docs_mask = __webpack_exports__["default"] = (Component.exports);
+
+
+/***/ }),
+
 /***/ "VS29":
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__("DIWZ");
+
+/***/ }),
+
+/***/ "WA74":
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
+/***/ "XrTc":
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
 
 /***/ }),
 
@@ -384,6 +700,13 @@ var Component = normalizeComponent(
 
 /***/ }),
 
+/***/ "aMfC":
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
 /***/ "deM7":
 /***/ (function(module, exports) {
 
@@ -401,7 +724,14 @@ var Component = normalizeComponent(
 /***/ "ffz/":
 /***/ (function(module, exports) {
 
-module.exports = {"开发指南":[{"name":"introduce","path":"/introduce","desc":"介绍"},{"name":"start","path":"/start","desc":"快速上手"}],"基础组件":[{"name":"icon","path":"/icon","desc":"Icon 图标"},{"name":"button","path":"/button","desc":"button按钮"}],"业务组件":[{"name":"dialog","path":"/dialog","desc":"dialog对话框"},{"name":"lyTable","path":"/lyTable","desc":"lyTable表格"},{"name":"popup","path":"/popup","desc":"popup浮窗"},{"name":"editor","path":"/editor","desc":"editor富文本"}]}
+module.exports = {"开发指南":[{"name":"introduce","path":"/introduce","desc":"介绍"},{"name":"start","path":"/start","desc":"快速上手"}],"基础组件":[{"name":"icon","path":"/icon","desc":"Icon 图标"},{"name":"button","path":"/button","desc":"button按钮"},{"name":"mask","path":"/mask","desc":"mask遮罩层"}],"业务组件":[{"name":"dialog","path":"/dialog","desc":"dialog对话框"},{"name":"sideBar","path":"/sideBar","desc":"sideBar弹出边框"},{"name":"lyTable","path":"/lyTable","desc":"lyTable表格"},{"name":"popup","path":"/popup","desc":"popup浮窗"},{"name":"editor","path":"/editor","desc":"editor富文本"}]}
+
+/***/ }),
+
+/***/ "fm4d":
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
 
 /***/ }),
 
@@ -455,27 +785,32 @@ var nav_config_default = /*#__PURE__*/__webpack_require__.n(nav_config);
   name: "left-nav",
   data: function data() {
     return {
-      lists: nav_config_default.a
+      lists: nav_config_default.a,
+      isHighLight: false
     };
   },
   methods: {
     goContent: function goContent(name) {
-      console.log('emit');
       this.$router.push({
         path: name.path
       });
     }
   },
-  mounted: function mounted() {}
+  mounted: function mounted() {},
+  watch: {
+    '$route.path': function $routePath(newPath, oldPath) {
+      console.log(newPath, 'newPath');
+    }
+  }
 });
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-434e5922","hasScoped":false,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./examples/components/leftNav.vue
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{attrs:{"id":"leftNav"}},_vm._l((Object.keys(_vm.lists)),function(item,index){return _c('div',{key:index},[_c('p',{staticClass:"title common-type"},[_vm._v(_vm._s(item))]),_vm._v(" "),_vm._l((_vm.lists[item]),function(name,index){return _c('div',{key:index,staticClass:"nav-inner common-type",on:{"click":function($event){return _vm.goContent(name)}}},[_vm._v("\n        "+_vm._s(name.desc)+"\n      ")])})],2)}),0)}
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-4c0d7d88","hasScoped":false,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./examples/components/leftNav.vue
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{attrs:{"id":"leftNav"}},_vm._l((Object.keys(_vm.lists)),function(item,index){return _c('div',{key:index},[_c('p',{staticClass:"title common-type"},[_vm._v(_vm._s(item))]),_vm._v(" "),_vm._l((_vm.lists[item]),function(name,index){return _c('div',{key:index,staticClass:"nav-inner common-type",class:{'high-light':_vm.$route.path==name.path},on:{"click":function($event){return _vm.goContent(name)}}},[_vm._v("\n        "+_vm._s(name.desc)+"\n      ")])})],2)}),0)}
 var staticRenderFns = []
 var esExports = { render: render, staticRenderFns: staticRenderFns }
 /* harmony default export */ var components_leftNav = (esExports);
 // CONCATENATED MODULE: ./examples/components/leftNav.vue
 function injectStyle (ssrContext) {
-  __webpack_require__("J3uo")
+  __webpack_require__("fm4d")
 }
 var normalizeComponent = __webpack_require__("VU/8")
 /* script */
@@ -651,7 +986,7 @@ vue_esm["a" /* default */].use(vue_router_esm["a" /* default */]);
     path: '/introduce',
     name: 'introduce',
     component: function component(r) {
-      return __webpack_require__.e/* require.ensure */(4).then((function () {
+      return __webpack_require__.e/* require.ensure */(3).then((function () {
         return r(__webpack_require__("3jHi"));
       }).bind(null, __webpack_require__)).catch(__webpack_require__.oe);
     }
@@ -659,7 +994,7 @@ vue_esm["a" /* default */].use(vue_router_esm["a" /* default */]);
     path: '/start',
     name: 'start',
     component: function component(r) {
-      return __webpack_require__.e/* require.ensure */(1).then((function () {
+      return __webpack_require__.e/* require.ensure */(2).then((function () {
         return r(__webpack_require__("NbD9"));
       }).bind(null, __webpack_require__)).catch(__webpack_require__.oe);
     }
@@ -667,7 +1002,7 @@ vue_esm["a" /* default */].use(vue_router_esm["a" /* default */]);
     path: '/dialog',
     name: 'dialog',
     component: function component(r) {
-      return Promise.all/* require.ensure */([__webpack_require__.e(0), __webpack_require__.e(5)]).then((function () {
+      return __webpack_require__.e/* require.ensure */(4).then((function () {
         return r(__webpack_require__("dbIc"));
       }).bind(null, __webpack_require__)).catch(__webpack_require__.oe);
     }
@@ -675,7 +1010,7 @@ vue_esm["a" /* default */].use(vue_router_esm["a" /* default */]);
     path: '/lyTable',
     name: 'lyTable',
     component: function component(r) {
-      return Promise.all/* require.ensure */([__webpack_require__.e(0), __webpack_require__.e(3)]).then((function () {
+      return __webpack_require__.e/* require.ensure */(1).then((function () {
         return r(__webpack_require__("NgVi"));
       }).bind(null, __webpack_require__)).catch(__webpack_require__.oe);
     }
@@ -683,7 +1018,7 @@ vue_esm["a" /* default */].use(vue_router_esm["a" /* default */]);
     path: '/popup',
     name: 'popup',
     component: function component(r) {
-      return Promise.all/* require.ensure */([__webpack_require__.e(0), __webpack_require__.e(2)]).then((function () {
+      return __webpack_require__.e/* require.ensure */(0).then((function () {
         return r(__webpack_require__("wlvd"));
       }).bind(null, __webpack_require__)).catch(__webpack_require__.oe);
     }
@@ -710,6 +1045,22 @@ vue_esm["a" /* default */].use(vue_router_esm["a" /* default */]);
     component: function component() {
       return Promise.resolve().then(function () {
         return interopRequireWildcard_default()(__webpack_require__("9tQs"));
+      });
+    }
+  }, {
+    path: '/mask',
+    name: 'mask',
+    component: function component() {
+      return Promise.resolve().then(function () {
+        return interopRequireWildcard_default()(__webpack_require__("rRrl"));
+      });
+    }
+  }, {
+    path: '/sideBar',
+    name: 'sideBar',
+    component: function component() {
+      return Promise.resolve().then(function () {
+        return interopRequireWildcard_default()(__webpack_require__("S0FE"));
       });
     }
   }]
@@ -799,8 +1150,8 @@ var lib_default = /*#__PURE__*/__webpack_require__.n(lib);
     }
   }
 });
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-da91d142","hasScoped":false,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./packages/yjIcon/src/yjIcon.vue
-var yjIcon_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('i',{class:[_vm.name?'icon-iconset'+_vm.name:'icon-iconset0102'],style:({color:_vm.color?_vm.color:''})})}
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-8a01672e","hasScoped":false,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./packages/yjIcon/src/yjIcon.vue
+var yjIcon_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('i',{class:[_vm.name?'icon-iconset' + _vm.name:'icon-iconset0102'],style:({color:_vm.color?_vm.color:''})})}
 var yjIcon_staticRenderFns = []
 var yjIcon_esExports = { render: yjIcon_render, staticRenderFns: yjIcon_staticRenderFns }
 /* harmony default export */ var src_yjIcon = (yjIcon_esExports);
@@ -839,6 +1190,12 @@ var yjIcon_Component = yjIcon_normalizeComponent(
 //
 //
 //
+//
+//
+//
+//
+//
+//
 /* harmony default export */ var yjButton = ({
   name: 'yjButton',
   props: {
@@ -849,17 +1206,25 @@ var yjIcon_Component = yjIcon_normalizeComponent(
     plain: {
       type: Boolean,
       default: false
+    },
+    size: {
+      type: String,
+      default: 'normal'
     }
   }
 });
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-592c5e68","hasScoped":false,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./packages/buttton/src/yjButton.vue
-var yjButton_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('button',{staticClass:"yj-button yj-button-normal",class:[_vm.type?("yj-button-" + _vm.type):"yj-button-default",{'is-plain':_vm.plain}]},[_vm._t("default")],2)}
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-cd5385d0","hasScoped":false,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./packages/buttton/src/yjButton.vue
+var yjButton_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('button',{staticClass:"yj-button yj-button-normal",class:[
+  _vm.type?("yj-button-" + _vm.type):"yj-button-default",
+  {'is-plain':_vm.plain},
+  _vm.size&&("yj-button-" + _vm.size)
+  ]},[_vm._t("default")],2)}
 var yjButton_staticRenderFns = []
 var yjButton_esExports = { render: yjButton_render, staticRenderFns: yjButton_staticRenderFns }
 /* harmony default export */ var src_yjButton = (yjButton_esExports);
 // CONCATENATED MODULE: ./packages/buttton/src/yjButton.vue
 function yjButton_injectStyle (ssrContext) {
-  __webpack_require__("1Gc6")
+  __webpack_require__("JMsH")
 }
 var yjButton_normalizeComponent = __webpack_require__("VU/8")
 /* script */
@@ -1125,6 +1490,389 @@ var richText_Component = richText_normalizeComponent(
 
   return promise
 });
+// EXTERNAL MODULE: ./node_modules/Vue/dist/vue.runtime.esm.js
+var vue_runtime_esm = __webpack_require__("TXMN");
+
+// EXTERNAL MODULE: ./packages/mask/mask.scss
+var mask = __webpack_require__("XrTc");
+var mask_default = /*#__PURE__*/__webpack_require__.n(mask);
+
+// CONCATENATED MODULE: ./packages/mask/Mask.js
+
+
+class Mask_Mask {
+  constructor() {
+    this.state = {  }
+  }
+  show(component,props){
+   return this.render(component,props)
+  }
+  render(component, props) { 
+    let resolve, reject, promise = new Promise((res, rej) => {
+      resolve = res ;
+      reject = rej
+    })
+    let maskBox = document.createElement('div');
+    let destroyFN = () => {
+      document.body.removeChild(maskBox)
+    }
+    maskBox.style.position = 'fixed';
+    maskBox.style.left = '0';
+    maskBox.style.right = '0';
+    maskBox.style.bottom = '0';
+    maskBox.style.top = '0';
+    maskBox.style.textAlign = 'center';
+    maskBox.style.backgroundColor = 'rgb(0,0,0,0.5)';
+    //居中样式
+    maskBox.className = 'yj-toast-wrapper'
+    document.body.appendChild(maskBox);
+    let ct = vue_runtime_esm["a" /* default */].extend(component);
+    let cp = new ct({
+      el:document.createElement('div'),
+      propsData:props
+    })
+    maskBox.appendChild(cp.$el)
+    maskBox.addEventListener('click',(e) => {
+      var e = e || window.event;
+      //当前元素才销毁
+      if(e.target.className === 'yj-toast-wrapper'){
+        destroyFN()
+      }
+    })
+    cp.$on('resolve',(res) => {
+      resolve(res) ;
+      destroyFN()
+    })
+    cp.$on('reject',(rej) => {
+      resolve(rej);
+      destroyFN()
+    })
+    return promise;
+  }
+}
+ 
+/* harmony default export */ var mask_Mask = (Mask_Mask);
+// CONCATENATED MODULE: ./node_modules/babel-loader/lib!./node_modules/vue-loader/lib/selector.js?type=script&index=0!./packages/dialog/src/toastInner.vue
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+/* harmony default export */ var toastInner = ({
+  name: 'toastInner',
+  props: {
+    title: {
+      type: String,
+      default: '标题'
+    },
+    content: {
+      type: String,
+      default: ''
+    },
+    showClose: {
+      type: Boolean,
+      default: true
+    }
+  },
+  methods: {
+    close: function close() {
+      this.$emit('onReject');
+    }
+  },
+  components: {
+    yjIcon: packages_yjIcon
+  }
+});
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-fe84bc9a","hasScoped":false,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./packages/dialog/src/toastInner.vue
+var toastInner_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"yj-toast-box"},[_c('div',{staticClass:"yj-toast-box_header"},[_c('span',{staticClass:"yj-toast-box_title"},[_vm._v(_vm._s(_vm.title))]),_vm._v(" "),(_vm.showClose)?_c('yj-icon',{staticClass:"icon-iconset0127 icon-close",nativeOn:{"click":function($event){return _vm.close($event)}}}):_vm._e()],1),_vm._v(" "),(_vm.content)?_c('div',{staticClass:"yj-toast-content",domProps:{"innerHTML":_vm._s(_vm.content)}}):_vm._e(),_vm._v(" "),_c('div',{staticClass:"yj-toast-footer"},[_vm._t("footer")],2)])}
+var toastInner_staticRenderFns = []
+var toastInner_esExports = { render: toastInner_render, staticRenderFns: toastInner_staticRenderFns }
+/* harmony default export */ var src_toastInner = (toastInner_esExports);
+// CONCATENATED MODULE: ./packages/dialog/src/toastInner.vue
+function toastInner_injectStyle (ssrContext) {
+  __webpack_require__("5r7H")
+}
+var toastInner_normalizeComponent = __webpack_require__("VU/8")
+/* script */
+
+
+/* template */
+
+/* template functional */
+var toastInner___vue_template_functional__ = false
+/* styles */
+var toastInner___vue_styles__ = toastInner_injectStyle
+/* scopeId */
+var toastInner___vue_scopeId__ = null
+/* moduleIdentifier (server only) */
+var toastInner___vue_module_identifier__ = null
+var toastInner_Component = toastInner_normalizeComponent(
+  toastInner,
+  src_toastInner,
+  toastInner___vue_template_functional__,
+  toastInner___vue_styles__,
+  toastInner___vue_scopeId__,
+  toastInner___vue_module_identifier__
+)
+
+/* harmony default export */ var dialog_src_toastInner = (toastInner_Component.exports);
+
+// CONCATENATED MODULE: ./node_modules/babel-loader/lib!./node_modules/vue-loader/lib/selector.js?type=script&index=0!./packages/dialog/src/alert.vue
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+/* harmony default export */ var src_alert = ({
+  name: 'alert',
+  props: {
+    title: String,
+    content: {
+      type: String,
+      default: '这是content'
+    }
+  },
+  methods: {
+    submit: function submit() {
+      this.$emit('resolve', '点击了确定');
+    },
+    onReject: function onReject() {
+      this.$emit('reject', '点击了取消');
+    }
+  },
+  components: {
+    toastInner: dialog_src_toastInner,
+    yjButton: buttton
+  }
+});
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-5ef69a87","hasScoped":true,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./packages/dialog/src/alert.vue
+var alert_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('toast-inner',{attrs:{"title":_vm.title,"content":_vm.content},on:{"onReject":_vm.onReject}},[_c('div',{attrs:{"slot":"footer"},slot:"footer"},[_c('yj-button',{attrs:{"type":"primary","size":"mini"},nativeOn:{"click":function($event){return _vm.submit($event)}}},[_vm._v("确定")])],1)])}
+var alert_staticRenderFns = []
+var alert_esExports = { render: alert_render, staticRenderFns: alert_staticRenderFns }
+/* harmony default export */ var dialog_src_alert = (alert_esExports);
+// CONCATENATED MODULE: ./packages/dialog/src/alert.vue
+function alert_injectStyle (ssrContext) {
+  __webpack_require__("aMfC")
+}
+var alert_normalizeComponent = __webpack_require__("VU/8")
+/* script */
+
+
+/* template */
+
+/* template functional */
+var alert___vue_template_functional__ = false
+/* styles */
+var alert___vue_styles__ = alert_injectStyle
+/* scopeId */
+var alert___vue_scopeId__ = "data-v-5ef69a87"
+/* moduleIdentifier (server only) */
+var alert___vue_module_identifier__ = null
+var alert_Component = alert_normalizeComponent(
+  src_alert,
+  dialog_src_alert,
+  alert___vue_template_functional__,
+  alert___vue_styles__,
+  alert___vue_scopeId__,
+  alert___vue_module_identifier__
+)
+
+/* harmony default export */ var packages_dialog_src_alert = (alert_Component.exports);
+
+// CONCATENATED MODULE: ./node_modules/babel-loader/lib!./node_modules/vue-loader/lib/selector.js?type=script&index=0!./packages/dialog/src/confirm.vue
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+/* harmony default export */ var src_confirm = ({
+  name: 'confirm',
+  props: {
+    title: String,
+    content: {
+      type: String,
+      default: '这是content'
+    },
+    showClose: {
+      type: Boolean,
+      default: true
+    }
+  },
+  methods: {
+    submit: function submit() {
+      this.$emit('resolve', '点击了确定');
+    },
+    onReject: function onReject() {
+      this.$emit('reject', '点击了取消');
+    }
+  },
+  components: {
+    toastInner: dialog_src_toastInner,
+    yjButton: buttton
+  }
+});
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-5288da34","hasScoped":true,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./packages/dialog/src/confirm.vue
+var confirm_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('toast-inner',{attrs:{"title":_vm.title,"content":_vm.content,"showClose":_vm.showClose},on:{"onReject":_vm.onReject}},[_c('div',{attrs:{"slot":"footer"},slot:"footer"},[_c('yj-button',{attrs:{"size":"mini"},nativeOn:{"click":function($event){return _vm.onReject($event)}}},[_vm._v("取消")]),_vm._v(" "),_c('yj-button',{attrs:{"type":"primary","size":"mini"},nativeOn:{"click":function($event){return _vm.submit($event)}}},[_vm._v("确定")])],1)])}
+var confirm_staticRenderFns = []
+var confirm_esExports = { render: confirm_render, staticRenderFns: confirm_staticRenderFns }
+/* harmony default export */ var dialog_src_confirm = (confirm_esExports);
+// CONCATENATED MODULE: ./packages/dialog/src/confirm.vue
+function confirm_injectStyle (ssrContext) {
+  __webpack_require__("p64D")
+}
+var confirm_normalizeComponent = __webpack_require__("VU/8")
+/* script */
+
+
+/* template */
+
+/* template functional */
+var confirm___vue_template_functional__ = false
+/* styles */
+var confirm___vue_styles__ = confirm_injectStyle
+/* scopeId */
+var confirm___vue_scopeId__ = "data-v-5288da34"
+/* moduleIdentifier (server only) */
+var confirm___vue_module_identifier__ = null
+var confirm_Component = confirm_normalizeComponent(
+  src_confirm,
+  dialog_src_confirm,
+  confirm___vue_template_functional__,
+  confirm___vue_styles__,
+  confirm___vue_scopeId__,
+  confirm___vue_module_identifier__
+)
+
+/* harmony default export */ var packages_dialog_src_confirm = (confirm_Component.exports);
+
+// CONCATENATED MODULE: ./packages/dialog/index.js
+
+
+
+
+/* harmony default export */ var dialog = ({
+  alert:(params) => new mask_Mask().show(packages_dialog_src_alert,params),
+  confirm:(params) => new mask_Mask().show(packages_dialog_src_confirm,params)
+});
+// EXTERNAL MODULE: ./packages/sideBar/src/sideBar.scss
+var sideBar = __webpack_require__("WA74");
+var sideBar_default = /*#__PURE__*/__webpack_require__.n(sideBar);
+
+// CONCATENATED MODULE: ./packages/sideBar/src/sideBar.js
+// import Vue from 'Vue'
+// import store from '@/store';
+const store = {}
+
+class SideBar {
+  /**
+   * 
+   * @param {Vnode} component  Vue组件
+   * @param {Object} params  Vue组件props
+   */
+  constructor({component='',params={}}){
+      this.component = component||'';
+      this.params = params;
+      this.sideDiv = ''
+  }
+  //初始化
+  init(cb){
+    this.render();
+    cb && cb(this)
+  }
+  //展示
+  show(cb){
+   
+    if(document.body.querySelector('#sideFoldPop')){
+      this.sideDiv.style.right = '0px';
+      console.log(cb,'cb')
+      cb && cb(this)
+    }else {
+      throw new Error('sideBar未初始化！')
+    }
+  }
+  //隐藏
+  hidden(cb){
+    if(document.body.querySelector('#sideFoldPop')){
+      this.sideDiv.style.right = '-500px';
+      cb && cb(this)
+    }else {
+      throw new Error('sideBar未初始化！')
+    }
+  }
+  //销毁
+  destroy(){
+    //只存在一个sideFoldPop
+    document.body.querySelector('#sideFoldPop') && document.body.removeChild(document.body.querySelector('#sideFoldPop'))
+  }
+  render() {
+      /**
+       * @param {DOM} hideBtn  隐藏按钮
+       * @param {DOM} innerDiv  滚动层盒子
+       * @param {DOM} this.sideDiv  最外层盒子
+       * 
+       */
+      //有则删除
+      this.destroy()
+      //基本行内样式
+      const sideCss = 'position:fixed; top:20px; right:0px; bottom:200px'
+      const hideBtn = document.createElement('div');
+      const innerDiv = document.createElement('div');
+      this.sideDiv = document.createElement('div');
+      this.sideDiv.id = 'sideFoldPop'
+      this.sideDiv.style.cssText = sideCss;
+      this.sideDiv.className = 'side-fold-pop';
+      innerDiv.className = 'side-fold-inner';
+      hideBtn.className = 'side-fold-footer';
+      hideBtn.innerHTML = '隐藏 >'
+      document.body.appendChild(this.sideDiv)
+      //监听隐藏按钮点击事件
+      hideBtn.addEventListener('click',() => {
+        this.hidden()
+      })
+      this.sideDiv.appendChild(innerDiv);
+      this.sideDiv.appendChild(hideBtn);
+      if(this.component){
+        const Cp = Vue.extend(this.component);
+        const vm = new Cp({
+          router: window.$router,
+          el:document.createElement('div'),
+          store,
+          propsData:this.params,
+        })
+        innerDiv.appendChild(vm.$el);
+        hideBtn.style.width = vm.$el.clientWidth + 'px' ||'300px'
+      }
+  }
+}
+/* harmony default export */ var src_sideBar = (SideBar);
+// CONCATENATED MODULE: ./packages/sideBar/index.js
+
+const sideBar_sideBar = (obj) => new src_sideBar(obj)
+/* harmony default export */ var packages_sideBar = (sideBar_sideBar);
 // CONCATENATED MODULE: ./packages/index.js
 
 
@@ -1134,6 +1882,13 @@ var richText_Component = richText_normalizeComponent(
 
 //pop弹窗
 
+//mask 遮罩层
+
+//dialog 对话框
+
+//sideBar
+
+console.log(packages_sideBar)
 let components = {
   yjButton: buttton,
   lyTable: packages_lyTable,
@@ -1141,9 +1896,24 @@ let components = {
   yjIcon: packages_yjIcon,
   richText: packages_richText
 }
+let jsLists = {
+  popup: popup_popup,
+  Mask: mask_Mask,
+  dialog: dialog,
+  sideBar: packages_sideBar
+}
 const install = Vue => {
   //注册全局组件
-  Vue.prototype.$popup = popup_popup
+  for(var key in jsLists){
+    if(key == 'Mask'){
+      Vue.prototype.$mask = new mask_Mask()
+    }else{
+      Vue.prototype[`$${key}`] = jsLists[key]
+    }
+  }
+  // Vue.prototype.$popup = popup;
+  // Vue.prototype.$mask = new Mask();
+  // Vue.prototype.$dialog = dialog;
   Object.keys(components).forEach(cpt=>{Vue.component(components[cpt].name,components[cpt])})
 }
 /* harmony default export */ var packages_0 = ({
@@ -1176,6 +1946,13 @@ new vue_esm["a" /* default */]({
   },
   template: '<App/>'
 });
+
+/***/ }),
+
+/***/ "p64D":
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
 
 /***/ }),
 
@@ -1258,6 +2035,13 @@ var Component = normalizeComponent(
 
 /***/ }),
 
+/***/ "rRrl":
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__("UeDQ");
+
+/***/ }),
+
 /***/ "ysMV":
 /***/ (function(module, exports) {
 
@@ -1266,4 +2050,4 @@ var Component = normalizeComponent(
 /***/ })
 
 },["mUtA"]);
-//# sourceMappingURL=app.c109062c48c075426100.js.map
+//# sourceMappingURL=app.ee2447eb5bbcfd93d1a8.js.map

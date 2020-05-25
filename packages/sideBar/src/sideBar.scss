@@ -1,0 +1,17 @@
+.side-fold-pop{
+  background-color: #f2f2f2;
+  min-width: 300px;
+  transition:all .3s;
+  .side-fold-inner{
+    height: calc(100% - 30px);
+    overflow-y:scroll;
+  }
+  .side-fold-footer{
+    line-height: 30px;
+    border-radius: 12px 12px 0 0;
+    text-align: center;
+    background-color:#409EFF;
+    color: #fff;
+    cursor: pointer;
+  }
+}

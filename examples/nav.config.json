@@ -21,6 +21,11 @@
       "name":"button",
       "path":"/button",
       "desc":"button按钮"
+    },
+    {
+      "name":"mask",
+      "path":"/mask",
+      "desc":"mask遮罩层"
     }
   ],
   "业务组件":[
@@ -28,6 +33,11 @@
       "name":"dialog",
       "path":"/dialog",
       "desc":"dialog对话框"
+    },
+    {
+      "name":"sideBar",
+      "path":"/sideBar",
+      "desc":"sideBar弹出边框"
     },
     {
       "name":"lyTable",

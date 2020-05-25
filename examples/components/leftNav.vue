@@ -2,7 +2,7 @@
   <div id="leftNav">
     <div v-for="(item,index) in Object.keys(lists)" :key="index">
         <p class="title common-type">{{item}}</p>
-        <div class="nav-inner common-type" v-for="(name,index) in lists[item]" :key="index" @click="goContent(name)">
+        <div class="nav-inner common-type" :class="{'high-light':$route.path==name.path}" v-for="(name,index) in lists[item]" :key="index" @click="goContent(name)">
           {{name.desc}}
         </div>
     </div>
@@ -14,17 +14,22 @@ export default {
   name: "left-nav",
   data() {
     return {
-      lists:navJson
+      lists:navJson,
+      isHighLight:false
     }
   },
   methods: {
     goContent(name){
-      console.log('emit')
       this.$router.push({path:name.path})
     }
   },
   mounted(){
     
+  },
+  watch:{
+   '$route.path'(newPath,oldPath){
+     console.log(newPath, 'newPath')
+   }
   }
 };
 </script>
@@ -42,6 +47,12 @@ export default {
  }
  .common-type{
    padding: 8px 0 8px 30px;
+   color: #455a64;
+   font-weight: 500;
+   font-size: 15px;
+ }
+ .high-light{
+   color: #4fc08d;
  }
 }
 </style>

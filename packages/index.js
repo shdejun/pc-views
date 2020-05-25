@@ -6,6 +6,13 @@ import lyPopup from  './popup'
 import richText from './richText'
 //pop弹窗
 import popup from './popup/popup.js'
+//mask 遮罩层
+import Mask from './mask/Mask.js'
+//dialog 对话框
+import dialog from './dialog/index'
+//sideBar
+import sideBar from './sideBar/index'
+console.log(sideBar)
 let components = {
   yjButton,
   lyTable,
@@ -13,9 +20,24 @@ let components = {
   yjIcon,
   richText
 }
+let jsLists = {
+  popup,
+  Mask,
+  dialog,
+  sideBar
+}
 const install = Vue => {
   //注册全局组件
-  Vue.prototype.$popup = popup
+  for(var key in jsLists){
+    if(key == 'Mask'){
+      Vue.prototype.$mask = new Mask()
+    }else{
+      Vue.prototype[`$${key}`] = jsLists[key]
+    }
+  }
+  // Vue.prototype.$popup = popup;
+  // Vue.prototype.$mask = new Mask();
+  // Vue.prototype.$dialog = dialog;
   Object.keys(components).forEach(cpt=>{Vue.component(components[cpt].name,components[cpt])})
 }
 export default {

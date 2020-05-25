@@ -40,10 +40,21 @@ export default new Router({
       path: '/button',
       name: 'button',
       component: ()=>import('../docs/button.md')
-    },{
+    },
+    {
       path:'/editor',
       name:'editor',
       component:() => import('../docs/richText.md')
+    },
+    {
+      path:'/mask',
+      name:'mask',
+      component:() => import('../docs/mask.md')
+    },
+    {
+      path:'/sideBar',
+      name:'sideBar',
+      component:() => import('../docs/sideBar.md')
     }
   ]
 })

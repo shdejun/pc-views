@@ -1,4 +1,4 @@
-webpackJsonp([3],{
+webpackJsonp([1],{
 
 /***/ "NgVi":
 /***/ (function(module, exports, __webpack_require__) {
@@ -143,7 +143,36 @@ var Component = normalizeComponent(
 /* harmony default export */ var markdown_compilerraw_examples_docs_lyTable = __webpack_exports__["default"] = (Component.exports);
 
 
+/***/ }),
+
+/***/ "YY9M":
+/***/ (function(module, exports, __webpack_require__) {
+
+var DESCRIPTORS = __webpack_require__("q0qZ");
+var defineProperty = __webpack_require__("1rEs").f;
+
+var FunctionPrototype = Function.prototype;
+var FunctionPrototypeToString = FunctionPrototype.toString;
+var nameRE = /^\s*function ([^ (]*)/;
+var NAME = 'name';
+
+// Function instances `.name` property
+// https://tc39.github.io/ecma262/#sec-function-instances-name
+if (DESCRIPTORS && !(NAME in FunctionPrototype)) {
+  defineProperty(FunctionPrototype, NAME, {
+    configurable: true,
+    get: function () {
+      try {
+        return FunctionPrototypeToString.call(this).match(nameRE)[1];
+      } catch (error) {
+        return '';
+      }
+    }
+  });
+}
+
+
 /***/ })
 
 });
-//# sourceMappingURL=3.b6dd8fd710aa6efdd826.js.map
+//# sourceMappingURL=1.b5c4916b0621f965d8cc.js.map

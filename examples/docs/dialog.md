@@ -1,9 +1,9 @@
 
 
-### 基本用法
+### 提示(alert)
 ---
 <div class="demon-block">
-  <div>这是个对话框</div>
+    <yj-button @click.native="showAlert">alert</yj-button>
 </div>
 <script>
 export default {
@@ -14,37 +14,90 @@ export default {
      }
   },
   methods:{
-    handlerActionSheet(){
-      this.show = !this.show
+    showAlert(){
+      this.$dialog.alert({
+        title:'Alert！',
+        content:'警告content!!是否继续?'
+      }).then(res => {
+        alert(res)
+      }).catch(rej => {
+        alert(rej)
+      })
     },
-    onSelected(item){
-      alert(item.name)
+    showConfirm(){
+      this.$dialog.confirm({
+        title:'Alert！',
+        content:'确认content!!是否继续?',
+      }).then(res => {
+        alert(res)
+      }).catch(rej => {
+        alert(rej)
+      })
     }
   }
 }
 </script>
 
----
-
-基础用法
-通过v-model控制显示和隐藏
 
 ::: demo
 ```html
- <div class="demon-block">
-  <yj-button @click.native="handlerActionSheet" type="primary">弹出菜单</yj-button>
-  <action-sheet v-model="show"></action-sheet>
+<div class="demon-block">
+    <yj-button @click.native="showAlert">alert</yj-button>
 </div>
 <script>
 export default {
    data(){
      return{
-       show:false
+       show:false,
+       title:'标题'
      }
   },
   methods:{
-    handlerActionSheet(){
-      this.show = true
+    showAlert(){
+      this.$dialog.alert({
+        title:'Alert！',
+        content:'警告content!!是否继续?'
+      }).then(res => {
+        alert(res)
+      }).catch(rej => {
+        alert(rej)
+      })
+    }
+  }
+}
+</script>
+
+```
+:::
+### 确认提示(confrim)
+---
+<div class="demon-block">
+    <yj-button @click.native="showConfirm">confirm</yj-button>
+</div>
+
+::: demo
+```html
+<div class="demon-block">
+    <yj-button @click.native="showConfirm">alert</yj-button>
+</div>
+<script>
+export default {
+   data(){
+     return{
+       show:false,
+       title:'标题'
+     }
+  },
+  methods:{
+    showConfirm(){
+      this.$dialog.confirm({
+        title:'Alert！',
+        content:'确认content!!是否继续?'
+      }).then(res => {
+        alert(res)
+      }).catch(rej => {
+        alert(rej)
+      })
     }
   }
 }
@@ -53,11 +106,12 @@ export default {
 ```
 :::
 
-
 ### prop
 | 参数      | 说明                                 | 类型      | 可选值       | 默认值   |
 |---------- |------------------------------------ |---------- |------------- |-------- |
-|type      |	类型，可选值为 primary info warning danger |	String   |	—           | default |
+|title      |标题 |	String   |	—           | '' |
+|content      |	消息内容 |	String/Html/VNode  |	—           | '' |
+|showClose      |	是否显示关闭按钮 |	Boolean   |	—           | true |
 ### Event
 | 事件名称      | 说明       | 回调参数   |
 |------------- |----------- |---------  |
