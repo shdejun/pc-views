@@ -80,12 +80,15 @@ section {
     overflow: auto;
     margin-bottom: 50px;
     th {
+      width: 180px;
+      text-align: left;
       border-top: 1px solid #f3f7fa;
       background-color: #FAFBFC;
       border-bottom: 1px solid #f3f7fa;
       padding: 10px 8px;
     }
     td{
+      width: 180px;
       border-top: 1px solid #f3f7fa;
       border-bottom: 1px solid #f3f7fa;
       padding: 10px 8px;

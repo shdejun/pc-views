@@ -23,9 +23,26 @@
       "desc":"button按钮"
     },
     {
+      "name":"card",
+      "path":"/card",
+      "desc":"card卡片"
+    },
+    {
       "name":"mask",
       "path":"/mask",
       "desc":"mask遮罩层"
+    }
+  ],
+  "form组件":[
+    {
+      "name": "checkbox",
+      "path": "/checkbox",
+      "desc": "checkbox复选框"
+    },
+    {
+      "name": "select",
+      "path": "/select",
+      "desc": "select选择器"
     }
   ],
   "业务组件":[

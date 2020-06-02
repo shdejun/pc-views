@@ -9,6 +9,7 @@ import plugin  from '../packages/index'
 Vue.component('demo-block', demoBlock)
 Vue.config.productionTip = false
 Vue.use(plugin)
+
 ELEMENT.install(Vue)
 /* eslint-disable no-new */
 new Vue({

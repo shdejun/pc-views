@@ -22,6 +22,11 @@ export default {
     leftNav,
     headerTop
   },
+  created(){
+  },
+  mounted(){
+    //  throw new Error('errorTEST')
+  },
   watch:{
     // '$route.path'(n,o){
     //   this.route = n

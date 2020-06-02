@@ -1,6 +1,6 @@
 <template>
   <div class="docs-demo-wrapper">
-      <div :style="{height: isExpand ? 'auto' : '0'}" class="demo-container">
+      <div :style="{height: isExpand ? '0' : 'auto'}" class="demo-container">
         <div span="14">
           <div class="docs-demo docs-demo--expand">
             <div class="highlight-wrapper">
@@ -62,6 +62,7 @@
     font-size: 12px;
     padding: 10px 0;
     background-color: #FAFBFC;
+    cursor: pointer;
   }
   .docs-demo-code,
   .highlight-wrapper,

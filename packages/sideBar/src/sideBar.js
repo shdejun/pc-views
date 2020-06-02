@@ -20,10 +20,8 @@ class SideBar {
   }
   //展示
   show(cb){
-   
     if(document.body.querySelector('#sideFoldPop')){
       this.sideDiv.style.right = '0px';
-      console.log(cb,'cb')
       cb && cb(this)
     }else {
       throw new Error('sideBar未初始化！')
@@ -32,7 +30,7 @@ class SideBar {
   //隐藏
   hidden(cb){
     if(document.body.querySelector('#sideFoldPop')){
-      this.sideDiv.style.right = '-500px';
+      this.sideDiv.style.right = '-2000px';
       cb && cb(this)
     }else {
       throw new Error('sideBar未初始化！')

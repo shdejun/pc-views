@@ -1,7 +1,7 @@
 <template>
   <div id="leftNav">
     <div v-for="(item,index) in Object.keys(lists)" :key="index">
-        <p class="title common-type">{{item}}</p>
+        <p class="title">{{item}}</p>
         <div class="nav-inner common-type" :class="{'high-light':$route.path==name.path}" v-for="(name,index) in lists[item]" :key="index" @click="goContent(name)">
           {{name.desc}}
         </div>
@@ -28,7 +28,7 @@ export default {
   },
   watch:{
    '$route.path'(newPath,oldPath){
-     console.log(newPath, 'newPath')
+    
    }
   }
 };
@@ -39,12 +39,15 @@ export default {
   height: calc(100% - 90px);
   box-shadow: 0 8px 12px #ebedf0;
   margin-right: 20px;
- .title{
-   color: #2369c1;
- }
- .nav-inner{
-   cursor: pointer;
- }
+  .title{
+    padding: 8px 0 8px 20px;
+    color: #2369c1;
+    font-weight: 500;
+    font-size: 15px;
+  }
+  .nav-inner{
+    cursor: pointer;
+  }
  .common-type{
    padding: 8px 0 8px 30px;
    color: #455a64;

@@ -55,6 +55,21 @@ export default new Router({
       path:'/sideBar',
       name:'sideBar',
       component:() => import('../docs/sideBar.md')
+    },
+    {
+      path:'/card',
+      name:'card',
+      component:() => import('../docs/card.md')
+    },
+    {
+      path:'/checkbox',
+      name:'checkbox',
+      component:() => import('../docs/checkbox.md')
+    },
+    {
+      path:'/select',
+      name:'select',
+      component:() => import('../docs/select.md')
     }
   ]
 })

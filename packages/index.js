@@ -4,6 +4,8 @@ import yjButton from './buttton'
 import lyTable from './lyTable';
 import lyPopup from  './popup'
 import richText from './richText'
+import yjCard  from './card'
+import form from './form'
 //pop弹窗
 import popup from './popup/popup.js'
 //mask 遮罩层
@@ -12,14 +14,16 @@ import Mask from './mask/Mask.js'
 import dialog from './dialog/index'
 //sideBar
 import sideBar from './sideBar/index'
-console.log(sideBar)
 let components = {
+  // ...form,
   yjButton,
   lyTable,
   lyPopup,
   yjIcon,
-  richText
+  richText,
+  yjCard,
 }
+Object.assign(components,form)
 let jsLists = {
   popup,
   Mask,
